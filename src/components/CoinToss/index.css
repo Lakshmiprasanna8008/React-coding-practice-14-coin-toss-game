@@ -1,0 +1,63 @@
+/* Write your CSS here */
+img {
+  width: 200px;
+  height: 200px;
+}
+.whole-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+h1 {
+  color: #a35200;
+}
+.second-heading {
+  color: #334155;
+}
+p {
+  color: #475569;
+}
+button {
+  background-color: #f9d423;
+  color: #a35200;
+  padding: 7px;
+  border-radius: 10px;
+  border-width: 0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .result-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 16px;
+  }
+  .second-heading {
+    font-size: 12px;
+  }
+  img {
+    min-width: 80px;
+    min-height: 80px;
+    width: 150px;
+    height: 150px;
+  }
+  .inner-container {
+    padding: 20px;
+  }
+}
